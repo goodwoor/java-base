@@ -15,6 +15,12 @@ public class DemoApplication {
 		return "hello from homePage";
 	}
 
+	@RequestMapping("/gg")
+	public String ggPage()
+	{
+		return "hello from ggPage";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
