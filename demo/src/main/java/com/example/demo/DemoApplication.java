@@ -12,7 +12,13 @@ public class DemoApplication {
 	@RequestMapping("/")
 	public String homePage()
 	{
-		return "hello from homePage";
+		return "hello from homePage fdsfsd";
+	}
+
+	@RequestMapping("/gg")
+	public String ggPage()
+	{
+		return "hello from ggPage";
 	}
 
 	public static void main(String[] args) {
