@@ -1,7 +1,7 @@
 Проект для изучения докер+java22+spring+hibernate+postgress+nginx
 
 Build:
--./mvnw package -s settings-home.xml
+- ./mvnw package -s settings-home.xml
 - java -jar target/demo-0.0.1-SNAPSHOT.jar
 - docker build -t demoapp .
 - docker run --rm -p 8081:8081 demoapp
